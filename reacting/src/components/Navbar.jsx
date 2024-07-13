@@ -30,7 +30,7 @@ function Navbar() {
         </div>
         <div className="rescore-drawer__handler mx-auto px-15">
           <button className="btn btn-info my-3 px-4" onClick={() => {setVisible(true)}}>
-            Click Here!!
+            Main Menu
           </button>
           <Drawer
             visible={visible}

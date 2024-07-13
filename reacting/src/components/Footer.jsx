@@ -5,15 +5,15 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-400">
       <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-4 md:mb-0">
+          <div className="mb-8 md:mb-0 md:w-1/3">
             <img className="h-12" src="https://www.nitjsr.ac.in/static/media/logo_new1.85cf87db.png" alt="NITJSR Logo" />
             <p className="mt-2 text-white">National Institute of Technology Jamshedpur</p>
             <p className="mt-2">Jamshedpur, Jharkhand, India</p>
-            <p>Email: <a href="mailto:info@nitjsr.ac.in" className="text-blue-400">info@nitjsr.ac.in</a></p>
+            <p>Email: <a href="mailto:info@nitjsr.ac.in" className="text-blue-400 hover:underline">info@nitjsr.ac.in</a></p>
             <p>Phone: +91-657-237-3407</p>
           </div>
-          <div className="flex flex-col md:flex-row md:space-x-8">
-            <div className="mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row md:space-x-8 md:w-2/3">
+            <div className="mb-8 md:mb-0 md:w-1/2">
               <h3 className="text-md font-semibold text-white">Quick Links</h3>
               <ul className="mt-2">
                 <li><a href="/about" className="hover:underline">About</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <li><a href="/research" className="hover:underline">Research</a></li>
               </ul>
             </div>
-            <div>
+            <div className="md:w-1/2">
               <h3 className="text-md font-semibold text-white">Connect with Us</h3>
               <ul className="mt-2">
                 <li><a href="https://www.facebook.com/nitjsr" className="hover:underline">Facebook</a></li>

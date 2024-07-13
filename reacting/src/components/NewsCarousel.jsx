@@ -19,7 +19,7 @@ const NewsCarousel = () => {
     },
     {
       id: 4,
-      title: ' Online STC on "Introduction to Number Theory and Cryptography" during August 05-09, 2024',
+      title: 'Online STC on "Introduction to Number Theory and Cryptography" during August 05-09, 2024',
       image: "https://nitjsr.ac.in/backend/uploads/institute_event/360f42b6-162c-466d-9307-384bf1282d73-Screenshot%202024-07-05%20154700.png"
     },
     {
@@ -53,13 +53,13 @@ const NewsCarousel = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden p-4 ">
+    <div className="overflow-hidden p-4">
       <div
         ref={carouselRef}
         className="flex space-x-4 transition-transform duration-1000 ease-in-out"
       >
         {news.map(item => (
-          <div key={item.id} className="flex-shrink-0 w-auto h-auto items-center">
+          <div key={item.id} className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
             <img
               src={item.image}
               alt={item.title}
